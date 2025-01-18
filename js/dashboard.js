@@ -119,7 +119,7 @@ function addProject() {
 
   if (projectTitle && projectDescription) {
     projects.push({
-      id: projects.length + 1,
+      id: projects.length + 1, // array projects 5 + 1 = 6
       title: projectTitle,
       description: projectDescription,
       tasks: []
